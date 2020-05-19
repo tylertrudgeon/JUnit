@@ -10,7 +10,7 @@ public class MyFirstTest {
     @Test
     public void testStringMatch(){
         String company = "Codeup";
-        assertEquals("CodeUp", company);
+        assertNotEquals("CodeUp", company);
     }
 
     @Test
